@@ -1,5 +1,9 @@
 
+body{
+  height:100%;
+  width:100%;
 
+}
 .cvc{
 
 color: white;
@@ -61,10 +65,10 @@ text-align: center;}
   background-color: black;
   color: white;
   filter:grayscale();
-font-size: 45px;
-
+font-size: 35px;
+margin-bottom: 50px;
   opacity: 0.8;
-  padding-left: 25px;
+  padding: 25px;
 }
 .social {
     color: transparent;
@@ -83,5 +87,55 @@ font-size: 45px;
 .social a:hover {
     color: grey;
 }
+.about{
+
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  filter:grayscale();
+  font-size: 35px;
+  margin: 150px;
+
+
+  opacity: 0.8;
+  padding:25px;
+  text-align: center;
+}
+.con{background-color: black;
+border-color: white;
+border-style: solid;
+color: white;
+filter:grayscale();
+font-size: 35px;
+margin: 250px;
+
+
+opacity: 0.8;
+padding:25px;
+text-align: center;}
+
+.volun{background-color: black;
+border-color: white;
+border-style: solid;
+color: white;
+filter:grayscale();
+font-size: 35px;
+margin: 150px;
+
+
+opacity: 0.8;
+padding:25px;
+text-align: center;}
+
+.main{
+    background:grey;
+    margin: 0 auto;
+  width: 300px;
+
+}
+.submit {
+background:teal;}
+
 footer{ background-color: white;
 text-align: center;}
